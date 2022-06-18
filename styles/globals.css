@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Elza Font */
+@import url("https://use.typekit.net/yyw7rgi.css");
+
+/* Neue Font */
+@font-face {
+    font-family: "NeueMachina-Regular";   /*Can be any text*/
+    src: 
+      url("/fonts/PPNeueMachina-Regular.ttf") format("truetype");
+      font-weight: 400;
+      font-display: swap;
+      font-style: normal;
+  }
+
+  @font-face{
+    font-family: "NeueMachina-UltraBold";   /*Can be any text*/
+    src: 
+      url("/fonts/PPNeueMachina-Ultrabold.ttf") format("truetype");
+      font-weight: 700;
+      font-display: swap;
+      font-style: normal;
+  }
+
+@layer base{
+body{
+    @apply dark:bg-[#1d1d1d];
+    @apply dark:text-white;
+    @apply bg-white;
+    @apply text-[#1d1d1d];
+}
+
+}
+
+body{
+  overflow-x: hidden;
+}
