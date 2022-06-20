@@ -23,7 +23,7 @@ export default function Nav(){
         <div>
           <img src={theme === 'dark' ? "/LogoLight.svg" : "/LogoDark.svg" } className="absolute left-[40px] top-[75px]"></img>
           {/* DESKTOP VERSION */}
-          <nav className="grid grid-cols-1 gap-5 space-y-[20px] text-center w-[150px] items-center fixed mx-[100px] mt-[355px] z-20">
+          <nav className="lg:grid grid-cols-1 gap-5 space-y-[20px] text-center w-[150px] items-center fixed mx-[50px] mt-[355px] z-20 hidden">
 
                 {navigation.map((item) => (
                   <a className="text-[16px] uppercase font-[NeueMachina-Regular]"
