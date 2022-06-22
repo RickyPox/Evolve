@@ -1,6 +1,6 @@
 export default function Intro() {
 return (
-<div className="z-10 grid grid-cols-6 gap-5 relative pt-[130px] mx-[100px]">
+<div className="z-10 grid grid-cols-6 gap-5 relative pt-[130px] md:mx-[100px] mx-[50px]">
     <div className="grid col-span-6 lg:col-span-4 col-start-1 lg:col-start-2 items-center justify-center justify-items-center">
     <h1 className=" text-[30px] lg:text-[90px] text-center font-[NeueMachina-Regular]">
         WE WORK
@@ -23,8 +23,8 @@ return (
     </div>
         <div className="flex justify-start w-full mt-[120px] lg:mt-0">
             <a href="#">
-            <img src="DownArrow.png" className="z-0 w-[45px] lg:w-[100px] dark:hidden "></img>
-            <img src="DownArrowWhite.png" className="z-0 w-[45px] lg:w-[100px] hidden dark:block "></img>
+            <img src="DownArrow.png" className="z-0 w-[45px] lg:w-[100px] dark:hidden downArrow"></img>
+            <img src="DownArrowWhite.png" className="z-0 w-[45px] lg:w-[100px] hidden dark:block downArrow"></img>
             </a>
         </div>
     </div>

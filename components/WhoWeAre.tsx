@@ -1,7 +1,7 @@
 export default function WhoWeAre() {
 return (
-<div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] mx-[100px]">
-    <div className="grid col-span-5 md:col-span-3 col-start-1 md:col-start-2 ">
+<div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] md:mx-[100px] mx-[50px]">
+    <div className="grid col-span-6 md:col-span-3 col-start-1 md:col-start-2 ">
         <h1 className="text-[30px] lg:text-[70px] text-left font-[NeueMachina-UltraBold] uppercase">
             Who we are <br></br> What We Do
         </h1>

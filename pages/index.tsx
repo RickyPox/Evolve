@@ -18,7 +18,7 @@ export default function Home(){
         <img src='RedElipse.png' className='absolute right-0 z-0'></img>
         <img src='PurpleElipse.png' className='absolute z-0 dark:opacity-50'></img>
         <img src='GreenElipse.png' className='absolute right-0 top-[1500px] z-0'></img>
-
+        {/* <img src='BlueElipse.png' className='absolute left-0 bottom-0 z-0'></img> */}
         
         <Nav></Nav>
         <Intro></Intro>

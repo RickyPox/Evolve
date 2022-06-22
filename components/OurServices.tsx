@@ -1,6 +1,6 @@
 export default function Services(){
     return(
-        <div className=" mt-[250px] mx-[100px] z-10 relative">
+        <div className=" mt-[250px] md:mx-[100px] mx-[50px] z-10 relative">
                 <h1 className="text-[30px] lg:text-[70px] text-right font-[NeueMachina-UltraBold] uppercase">
                 Our <br></br>Services
                 </h1>

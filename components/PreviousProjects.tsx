@@ -1,6 +1,6 @@
 export default function PreviousProjects(){
     return(
-        <div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] mx-[100px]">
+        <div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] md:mx-[100px] mx-[50px]">
             <div className="grid col-span-3 col-start-2">
                 <h1 className="text-[70px] text-left font-[NeueMachina-UltraBold] uppercase">
                 TEAM PREVIOUS PROJECTS

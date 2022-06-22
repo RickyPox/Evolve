@@ -37,3 +37,19 @@ body{
 body{
   overflow-x: hidden;
 }
+
+.downArrow{
+  animation: floating 3s infinite ease-in-out;
+}
+
+@keyframes floating {
+  0%{
+    transform: translatey(0px);
+  }
+  50%{
+    transform: translatey(-20px);
+  }
+  100%{
+    transform: translatey(0px);
+  }
+}
