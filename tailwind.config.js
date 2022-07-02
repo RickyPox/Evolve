@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       gridTemplateColumns: {
-        // Simple 16 column grid
+        // Simple 18 column grid
         '18': 'repeat(18, minmax(0, 1fr))',
       }
 },

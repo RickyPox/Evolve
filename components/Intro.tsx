@@ -16,7 +16,7 @@ return (
     <div className=" mt-[60px] lg:mt-[140px]">
         <a
         href="#"
-        className=" px-[8px] lg:px-[40px] py-[20px] lg:py-[25px] font-[elza] font-bold text-[14px] lg:text-[20px] uppercase bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)]"
+        className=" px-[8px] lg:px-[40px] py-[20px] lg:py-[25px] font-[elza] font-bold text-[14px] lg:text-[20px] uppercase bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
         >
         PRESS TO EVOLVE
         </a>

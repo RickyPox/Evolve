@@ -23,8 +23,8 @@ export default function Home(){
         <Nav></Nav>
         <Intro></Intro>
         <WhoWeAre></WhoWeAre>
-        {/* <Services></Services>
-        <PreviousProjects></PreviousProjects> */}
+       <Services></Services>
+         {/* <PreviousProjects></PreviousProjects> */}
         <Team></Team>
         </div>
     </div>

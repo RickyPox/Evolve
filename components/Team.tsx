@@ -16,8 +16,8 @@ export default function Team(){
         </div>
         
         {/* Team CHANGE METHOD */}
-        <div className="flex justify-center row-start-4 col-start-2 col-span-4">
-            <div className="flex flex-col items-center">
+
+            <div className="flex flex-col items-center row-start-4 col-start-2 col-span-2 lg:col-span-1 lg:col-start-2">
                 <img src="/TeamPlaceHolder.png"></img>
                 <h2 className="font-[elza] text-[25px] font-bold">Name</h2>
                 <div className="flex space-x-5">
@@ -27,7 +27,7 @@ export default function Team(){
                 </div>
             </div>
             
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center row-start-4 col-start-4 col-span-2 lg:col-span-1 lg:col-start-3">
                 <img src="/TeamPlaceHolder.png"></img>
                 <h2 className="font-[elza] text-[25px] font-bold">Name</h2>
                 <div className="flex space-x-5">
@@ -37,7 +37,7 @@ export default function Team(){
                 </div>
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center row-start-5 col-start-2 col-span-2 lg:row-start-4 lg:col-start-4 lg:col-span-1">
                 <img src="/TeamPlaceHolder.png"></img>
                 <h2 className="font-[elza] text-[25px] font-bold">Name</h2>
                 <div className="flex space-x-5">
@@ -47,7 +47,7 @@ export default function Team(){
                 </div>
             </div>
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center row-start-5 col-start-4 col-span-2 lg:row-start-4 lg:col-start-5 lg:col-span-1">
                 <img src="/TeamPlaceHolder.png"></img>
                 <h2 className="font-[elza] text-[25px] font-bold">Name</h2>
                 <div className="flex space-x-5">
@@ -56,7 +56,7 @@ export default function Team(){
                     <img src="/WebLogo.svg" className="w-[15px]"></img>
                 </div>
             </div>
-        </div>
+
     </div>
     )
 }

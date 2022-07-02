@@ -1,7 +1,7 @@
 export default function WhoWeAre() {
 return (
 <div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] md:mx-[100px] mx-[50px]">
-    <div className="grid col-span-6 md:col-span-3 col-start-1 md:col-start-2 ">
+    <div className="grid col-span-6 lg:col-span-3 lg:col-start-2 md:col-span-4 col-start-1 md:col-start-1 ">
         <h1 className="text-[30px] lg:text-[70px] text-left font-[NeueMachina-UltraBold] uppercase">
             Who we are <br></br> What We Do
         </h1>
@@ -34,7 +34,7 @@ return (
         <div className="lg:mt-[140px] mt-[75px]">
             <a
             href="#"
-            className=" px-[15px] lg:px-[40px] py-[10px] lg:py-[25px] font-[elza]  font-bold lg:text-[20px] text-[14px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)]"
+            className=" px-[15px] lg:px-[40px] py-[10px] lg:py-[25px] font-[elza]  font-bold lg:text-[20px] text-[14px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
             >
             Check Full Pitchdeck
             </a>
