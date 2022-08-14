@@ -3,21 +3,6 @@ import { useEffect, useState } from "react";
 
 export default function Services(){
 
-        useEffect(() => {
-                const evolveTechCircle = document.getElementById("evolveTechCircle");
-                const fillCircle = () =>{
-                        const evolveTechCircleDimensions = evolveTechCircle?.getBoundingClientRect();
-                        var evolveTechCircleTop = evolveTechCircleDimensions.top;
-                        if(evolveTechCircleTop <= 200 ){
-                                evolveTechCircle.style.backgroundColor = "black";
-                        }
-                        else{
-                                evolveTechCircle.style.backgroundColor = "white";
-                        }
-                }
-                window.addEventListener("scroll", fillCircle)
-        });
-
 return(
         <div className=" mt-[250px] md:mx-[100px] mx-[50px] z-10 relative">
                 <h1 className="text-[30px] lg:text-[70px] text-right font-[NeueMachina-UltraBold] uppercase">

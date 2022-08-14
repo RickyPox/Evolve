@@ -5,6 +5,7 @@ import WhoWeAre from '../components/WhoWeAre'
 import Services from '../components/OurServices'
 import PreviousProjects from '../components/PreviousProjects'
 import Team from '../components/Team'
+import Carousel from '../components/Carousel'
 export default function Home(){
 
   return (
@@ -23,6 +24,7 @@ export default function Home(){
         <Nav></Nav>
         <Intro></Intro>
         <WhoWeAre></WhoWeAre>
+        <Carousel></Carousel>
        <Services></Services>
          {/* <PreviousProjects></PreviousProjects> */}
         <Team></Team>
