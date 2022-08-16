@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+
 
 
 export default function Services(){
@@ -8,125 +8,267 @@ return(
                 <h1 className="text-[30px] lg:text-[70px] text-right font-[NeueMachina-UltraBold] uppercase">
                         Our <br></br>Services
                 </h1>
-                <div className=" grid grid-cols-6 gap-5">
-                        <div className=" grid col-span-6 gap-5 col-start-1 lg:col-start-2 lg:col-span-3 border-l-2 border-black dark:border-white">
-
-                                {/* EVOLVE GROWTH */}
-                                <div className="flex pb-[100px]">
-                                        <div className="flex flex-col justify-items-start items-center w-[20px] -ml-[11px] ">
-                                                <div className="w-[20px] h-[20px] rounded-full bg-black dark:bg-white"/>
-                                        </div>
-                                        <div>
-                                        <h2 className="text-[22px] text-left font-[NeueMachina-UltraBold] uppercase font-bold ml-[10px] -mt-[7px]">EVOLVE GROWTH</h2>
-                                                
-                                                {/* WEB 3 Strategy */}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="WebLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">WEB 3 Strategy</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )</p>
-                                                        <p>Outline of needs</p>
-                                                        <p>Processes Guidance</p>
-                                                        <p>Launch Strategy</p>
-                                                        <p>Tech Support</p>
-                                                </div>
-
-                                                {/* WEB 3 Development Support */}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="SupportLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">WEB 3 Development Support</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Launch partnerships</p>
-                                                        <p>Protocol Setup</p>
-                                                        <p>Marketplace Setup assistance</p>
-                                                        <p>Integration with Web3 protocols</p>
-                                                        <p>Membership Protocol</p>
-                                                        <p>Development Hiring and Advisory</p>
-                                                </div>
-
-                                                {/* Strategic Partnerships / Marketing */}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="PartnershipLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">Strategic Partnerships / Marketing</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Strategic introductions to ecosystem projects</p>
-                                                        <p>Strategic introductions to community and thought leader</p>
-                                                        <p>Influencer Partnerships</p>
-                                                        <p>Spaces and ecosystem podcasts setup</p>
-                                                        <p>Community Management, Discord Moderator, and Social Media Management Hiring</p>
-                                                        <p>Discord Moderator Education and Onboarding Services</p>
-                                                </div>
-
-                                                {/*Events*/}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="EventsLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">Events</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Location Scouting</p>
-                                                        <p>Celebrity Partnerships</p>
-                                                        <p>Brand/Project Partnerships</p>
-                                                </div>
-
-                                                {/*Raising and Tech Partnerships*/}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="StrategicLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">Raising and Tech Partnerships</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Introductions to Web3 Venture Capitalists, Firms, and Funds</p>
-                                                        <p>Introductions to Tech Leaders</p>
-                                                        <p>Introduction and Partnership with Solana</p>
-                                                </div>
-                                        </div>
-                                </div>
-
-                                {/* EVOLVE TECH */}
-                                <div className="flex pb-[100px]">
-                                        <div className="flex flex-col justify-items-start items-center w-[20px] -ml-[11px] ">
-                                                <div id="evolveTechCircle" className="w-[20px] h-[20px] rounded-full border-black dark:border-white border-2 z-20 bg-white dark:bg-[#1d1d1d] transition ease-in-out duration-500"/>
-                                        </div>
-                                        <div>
-                                        <h2 className="text-[22px] text-left font-[NeueMachina-UltraBold] uppercase font-bold ml-[10px] -mt-[7px]">EVOLVE TECH</h2>
-                                                
-                                                {/* Strategic Partnerships / Marketing */}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="WebLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">Strategic Partnerships / Marketing</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Strategic introductions to ecosystem projects</p>
-                                                        <p>Strategic introductions to community and thought leader</p>
-                                                        <p>Influencer Partnerships</p>
-                                                        <p>Spaces and ecosystem podcasts setup</p>
-                                                        <p>Community Management, Discord Moderator, and Social Media Management Hiring</p>
-                                                        <p>Discord Moderator Education and Onboarding Services</p>
-                                                </div>
-
-                                                {/* WEB 3 Development Support */}
-                                                <div className="flex ml-[55px] mt-[30px] space-x-5">
-                                                        <img src="SupportLogo.svg"/>
-                                                        <h3 className="font-[Elza] font-bold text-[24px]">WEB 3 Development Support</h3>
-                                                </div>
-                                                <div className="font-[Elza] text-[16px] ml-[125px] mt-[10px]">
-                                                        <p>Launch partnerships</p>
-                                                        <p>Protocol Setup</p>
-                                                        <p>Marketplace Setup assistance</p>
-                                                        <p>Integration with Web3 protocols</p>
-                                                        <p>Membership Protocol</p>
-                                                        <p>Development Hiring and Advisory</p>
-                                                </div>
-
-                                                
-                                        </div>
-                                        
-                                </div>
-                                
+                {/* EVOLVE GROWTH */}
+                <div className=" grid grid-cols-6 gap-5 mt-[100px]">
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
+                                <img className=" min-h-[50px]" src="/Evolve_Growth.svg"/>
                         </div>
+                        
+                        {/* WEB 3 STRATEGY */}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+
+                        {/* WEB 3 DEVELOPMENT*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+
+                        {/* STRATEGIC PARTNERSHIP*/}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* EVENTS*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* RAISING AND TECH PARTNERSHIPS*/}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* OPTIONAL*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        
+                </div>
+
+                {/* EVOLVE TECH */}
+                <div className=" grid grid-cols-6 gap-5 mt-[100px]">
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
+                                <img className=" min-h-[50px]" src="/Evolve_Tech.svg"/>
+                        </div>
+                        
+                        {/* WEB 3 STRATEGY */}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+
+                        {/* WEB 3 DEVELOPMENT*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+
+                        {/* STRATEGIC PARTNERSHIP*/}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* EVENTS*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* RAISING AND TECH PARTNERSHIPS*/}
+                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        {/* OPTIONAL*/}
+                        <div className=" grid col-start-1 lg:col-start-4 lg:col-span-2 col-span-6 mt-[50px] xl:ml-[100px]">
+                                <div className="flex flex-col space-y-2">
+                                        <div className="flex flex-row items-center space-x-8">
+                                                        <img src="/WebLogo.svg" className=" p-[13px] w-[50px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d] rounded-[7px]"></img>
+                                                        <h2 className="font-[elza] text-[22px] font-semibold">WEB 3 Strategy</h2>
+                                        </div> 
+                                        <div className="flex space-x-8">
+                                                <div className="min-w-[50px]"></div>        
+                                                <p className="font-[elza] lg:text-[16px] text-[10px]">
+                                                        Art Design / Collection Strategy ( art, mint size, mint price, 1/1 creation )<br></br>
+                                                        Outline of needs<br></br>
+                                                        Processes Guidance<br></br>
+                                                        Launch Strategy<br></br>
+                                                        Tech Support
+                                                </p>
+                                        </div> 
+                                        
+                                </div>  
+                        </div>
+                        
                 </div>
         </div>
-    )
+)
 }

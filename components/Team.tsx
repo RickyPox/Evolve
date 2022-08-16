@@ -1,6 +1,6 @@
 export default function Team(){
     return(
-    <div className="z-10 grid grid-cols-6 gap-5 relative py-[330px] md:mx-[100px] mx-[50px]">
+    <div className="z-10 grid grid-cols-6 gap-5 relative py-[300px] md:mx-[100px] mx-[50px]">
         <div className="grid lg:col-span-2 lg:col-start-2 col-span-6 col-start-1">
             <h1 className="lg:text-[70px] text-[30px] text-left font-[NeueMachina-UltraBold] uppercase">
                 Our Team
