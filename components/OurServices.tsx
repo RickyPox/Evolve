@@ -11,7 +11,7 @@ return(
                 {/* EVOLVE GROWTH */}
                 <div className=" grid grid-cols-6 gap-5 mt-[100px]">
                         <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
-                                <img className=" min-h-[50px]" src="/Evolve_Growth.svg"/>
+                                <img className=" min-h-[50px] w-[300px]" src="/Evolve_Growth.svg"/>
                         </div>
                         
                         {/* WEB 3 STRATEGY */}
@@ -142,7 +142,7 @@ return(
                 {/* EVOLVE TECH */}
                 <div className=" grid grid-cols-6 gap-5 mt-[100px]">
                         <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
-                                <img className=" min-h-[50px]" src="/Evolve_Tech.svg"/>
+                                <img className=" min-h-[50px] w-[300px]" src="/Evolve_Tech.svg"/>
                         </div>
                         
                         {/* WEB 3 STRATEGY */}
@@ -269,6 +269,7 @@ return(
                         </div>
                         
                 </div>
+                
         </div>
 )
 }

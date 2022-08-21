@@ -53,3 +53,46 @@ body{
     transform: translatey(0px);
   }
 }
+
+.bgs{
+  position: relative;
+  overflow: hidden;
+}
+
+.bgs:after{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,transparent,rgba(0, 0, 0, 0.1),transparent);
+  transition: 0.3s;
+}
+
+.bgs:hover:after{
+  left: 100%;
+}
+
+.bgs_dark{
+  position: relative;
+  overflow: hidden;
+}
+
+.bgs_dark:after{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg,transparent,rgba(255, 255, 255, 0.1),transparent);
+  transition: 0.3s;
+}
+
+.bgs_dark:hover:after{
+  left: 100%;
+}
+
+
+

@@ -31,10 +31,18 @@ return (
             Basically we place oursleves right in the middle of the ecosystem to
             provide a powerful tool that works as and accelerator.
         </p>
-        <div className="lg:mt-[140px] mt-[75px]">
+        <div className="lg:mt-[140px] mt-[75px] flex dark:hidden">
             <a
             href="#"
-            className=" px-[15px] lg:px-[40px] py-[10px] lg:py-[25px] font-[elza]  font-bold lg:text-[20px] text-[14px] bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
+            className="bgs px-[15px] lg:px-[40px] py-[10px] lg:py-[25px] font-[elza] font-bold lg:text-[20px] text-[14px] shadow-[0px_3px_5px_rgba(0,0,0,0.5)]"
+            >
+            Check Full Pitchdeck
+            </a>
+        </div>
+        <div className="lg:mt-[140px] mt-[75px] dark:flex hidden">
+            <a
+            href="#"
+            className="bgs_dark px-[15px] lg:px-[40px] py-[10px] lg:py-[25px] font-[elza] font-bold lg:text-[20px] text-[14px] shadow-[0px_3px_5px_rgba(0,0,0,0.5)]"
             >
             Check Full Pitchdeck
             </a>

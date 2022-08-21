@@ -13,10 +13,18 @@ return (
         We make your idea become{" "}
         <span className="font-[elza] font-bold italic">TRUE</span>
     </p>
-    <div className=" mt-[60px] lg:mt-[140px]">
+    <div className=" mt-[60px] lg:mt-[140px] flex dark:hidden">
         <a
         href="#"
-        className=" px-[8px] lg:px-[40px] py-[20px] lg:py-[25px] font-[elza] font-bold text-[14px] lg:text-[20px] uppercase bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
+        className="bgs px-[8px] lg:px-[40px] py-[20px] lg:py-[25px] font-[elza] font-bold text-[14px] lg:text-[20px] uppercase bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
+        >
+        PRESS TO EVOLVE
+        </a>
+    </div>
+    <div className=" mt-[60px] lg:mt-[140px] dark:flex hidden">
+        <a
+        href="#"
+        className="bgs_dark px-[8px] lg:px-[40px] py-[20px] lg:py-[25px] font-[elza] font-bold text-[14px] lg:text-[20px] uppercase bg-gradient-to-tr from-white to-[#EEEEEE]/0 shadow-[0px_3px_5px_rgba(0,0,0,0.5)] dark:from-[#1d1d1d]"
         >
         PRESS TO EVOLVE
         </a>
