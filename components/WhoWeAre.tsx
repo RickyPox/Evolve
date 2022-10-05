@@ -1,34 +1,35 @@
 export default function WhoWeAre() {
 return (
 <div className="z-10 grid grid-cols-6 gap-5 relative pt-[330px] md:mx-[100px] mx-[50px]">
-    <div className="grid col-span-6 lg:col-span-3 lg:col-start-2 md:col-span-4 col-start-1 md:col-start-1 ">
-        <h1 className="text-[30px] lg:text-[70px] text-left font-[NeueMachina-UltraBold] uppercase">
-            Who we are <br></br> What We Do
+    <div className="grid col-span-6 lg:col-span-2 lg:col-start-2 md:col-span-4 col-start-1 md:col-start-1 ">
+        <h1 className="text-[30px] lg:text-[70px] text-left uppercase font-[NeueMachina-Regular]">
+            Who <span className="font-[NeueMachina-UltraBold]">we are</span> 
+            <br></br> What <span className="font-[NeueMachina-UltraBold]">We Do </span>
         </h1>
         <p className="mt-[40px] font-[elza] text-[10px] lg:text-[16px]">
             As the Solana ecosystem continues to mature and individual project
-            lifecycles,{" "}
+            lifecycles, {" "}
             <span className="font-[elza] font-bold">
-            the expectations of market participants have evolved as well.
+            the expectations of market participants have evolved 
             </span>
+            {" "} as well.
         </p>{" "}
         <br></br>
         <p className="font-[elza] text-[10px] lg:text-[16px]">
-            Having the right partners and a diverse team will allow us to tackle
-            imense use cases.
+            Having the right partners and a diverse team will allow us to tackle imense use cases.
         </p>{" "}
         <br></br>
         <p className="font-[elza] text-[10px] lg:text-[16px]">
             By using our network and resources{" "}
             <span className="font-[elza] font-bold">
-            we can capitalise on every step of this process and maximise
-            efficiency and profitability while providing not only to our direct
-            client but also to the provider of the resources.
+            we can capitalise on every step of this process and maximise efficiency 
+            and profitability while providing not only to our direct client but also 
+            to the provider of the resources.
             </span>
         </p>{" "}
         <br></br>
         <p className="font-[elza] text-[10px] lg:text-[16px] font-bold">
-            Basically we place oursleves right in the middle of the ecosystem to
+            Basically we place oursleves right in the middle of the ecosystem to 
             provide a powerful tool that works as and accelerator.
         </p>
         <div className="lg:mt-[140px] mt-[75px] flex dark:hidden">

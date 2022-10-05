@@ -9,9 +9,8 @@ return (
         FOR THE PROJECTS.
         </span>
     </h1>
-    <p className="font-[elza] text-[10px] lg:text-[20px] ">
-        We make your idea become{" "}
-        <span className="font-[elza] font-bold italic">TRUE</span>
+    <p className="font-[elza] text-[10px] font-bold lg:text-[20px] ">
+        We help you launching your Project.
     </p>
     <div className=" mt-[60px] lg:mt-[140px] flex dark:hidden">
         <a

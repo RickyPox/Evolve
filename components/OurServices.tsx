@@ -4,13 +4,15 @@
 export default function Services(){
 
 return(
-        <div className=" mt-[250px] md:mx-[100px] mx-[50px] z-10 relative">
-                <h1 className="text-[30px] lg:text-[70px] text-right font-[NeueMachina-UltraBold] uppercase">
-                        Our <br></br>Services
-                </h1>
+        <div className="grid grid-cols-6 gap-5 re mt-[250px] md:mx-[100px] mx-[50px] z-10 relative ">
+                <div className=" grid grid-cols-6 col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
+                        <h1 className="text-[30px] lg:text-[70px] font-[NeueMachina-Regular] uppercase">
+                                Our <br></br><span className="font-[NeueMachina-UltraBold]">Services</span>
+                        </h1>
+                </div>
                 {/* EVOLVE GROWTH */}
-                <div className=" grid grid-cols-6 gap-5 mt-[100px]">
-                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
+
+                        <div className="mt-[100px] grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
                                 <img className=" min-h-[50px] w-[300px]" src="/Evolve_Growth.svg"/>
                         </div>
                         
@@ -136,12 +138,10 @@ return(
                                         
                                 </div>  
                         </div>
-                        
-                </div>
 
                 {/* EVOLVE TECH */}
-                <div className=" grid grid-cols-6 gap-5 mt-[100px]">
-                        <div className=" grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
+
+                        <div className="mt-[100px] grid col-start-1 lg:col-start-2 lg:col-span-4 col-span-6">  
                                 <img className=" min-h-[50px] w-[300px]" src="/Evolve_Tech.svg"/>
                         </div>
                         
@@ -267,9 +267,7 @@ return(
                                         
                                 </div>  
                         </div>
-                        
-                </div>
-                
+                                        
         </div>
 )
 }
